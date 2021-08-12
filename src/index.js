@@ -9,10 +9,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/gogoanime-clone" component={Home}>
             <Home />
           </Route>
-          <Route path="/detail">
+          <Route path="/gogoanime-clone/detail" component={Detail}>
             <Detail />
           </Route>
         </Switch>

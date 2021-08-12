@@ -9,7 +9,7 @@ function Item({anime}) {
                 <div className="Cover-container">
                     <img className="Cover"src={anime.image} alt={anime.title}/>
                     <div className="Title">
-                        <Link className="Link" to={{ pathname: '/Detail',  state: { url: anime.link }}}>
+                        <Link className="Link" to={{ pathname: '/gogoanime-clone/Detail',  state: { url: anime.link }}}>
                              <p>{anime.title}</p>
                         </Link>
                     </div>
