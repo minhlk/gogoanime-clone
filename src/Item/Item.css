@@ -1,0 +1,39 @@
+.Image-container {
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.Title {
+    background: linear-gradient(transparent,#1b1b1b);
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+}
+
+.Title p {
+    color: white;
+    text-align: center;
+    margin:0;
+}
+
+.Cover {
+    width: 230px;
+    height: auto;
+}
+
+.Cover-container {
+    height: 328px;
+    position: relative;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Container {
+    width: 230px;
+    margin: 0 auto;
+}
