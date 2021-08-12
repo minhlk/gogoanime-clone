@@ -23,18 +23,19 @@ const getDetailPlayer = async (url) => {
     let playerUrl = $('.play-video iframe').attr('src')
     playerUrl = playerUrl.replace('streaming.php', 'loadserver.php')
     return playerUrl;
-    //TODO: By pass cors here
-    html = await axios.request(
-        {
-            url: playerUrl,
-            method: 'get',
-            headers: {'X-Requested-With': 'XMLHttpRequest'},
-        })
-        console.log(html)
-    $ = await cheerio.load(html.data);
-    let videoUrl = $('video')?.attr('src');
-    return videoUrl;
 }
+
+//TODO: By pass cors here
+//   html = await axios.request(
+//     {
+//         url: playerUrl,
+//         method: 'get',
+//         headers: {'X-Requested-With': 'XMLHttpRequest'},
+//     })
+//     console.log(html)
+// $ = await cheerio.load(html.data);
+// let videoUrl = $('video')?.attr('src');
+// return videoUrl;
 
 export {
     getHomeData,
