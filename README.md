@@ -1,6 +1,8 @@
 ## Gogoanime byPass cors
 Status: In-progress
 
+[Demo Page](https://minhlk.github.io/gogoanime-clone)
+
 ## Available Scripts
 
 In the project directory, you can run:
