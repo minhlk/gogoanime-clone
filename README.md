@@ -23,9 +23,9 @@ Your app is ready to be deployed!
 
 ### ROAD MAP
 
-- [ ] Create Home page
-- [ ] Create Detail Page
-- [ ] Use iframe as temporary solution
+- [x] Create Home page
+- [x] Create Detail Page
+- [x] Use iframe as temporary solution
 - [ ] Bypass CORS of vidsteaming
 - [ ] Create search function
 - [ ] Decorate website using bootstrap
